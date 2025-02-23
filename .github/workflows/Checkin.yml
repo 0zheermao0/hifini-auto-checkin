@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: HIFINI
     env:
-      COOKIE: ${{ secrets.COOKIE }}
+      COOKIE: bbs_sid=2daidojnv6btk4m8tnbaaop51s; bbs_token=8U8Nu4UdneZSiHH7mrzoolHkCffbLvZbHaN0iYWyX65kdbtmcxNw4sZDzuBzIC7wexORk3dH6M12tdqSQXNzk5yvBMKkp6Pq
 
     steps:
       - uses: actions/checkout@v4
